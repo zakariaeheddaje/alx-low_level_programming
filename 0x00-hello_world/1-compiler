@@ -1,1 +1,2 @@
-#!/bin/bash\nCFILE="main.c"; gcc -c "$CFILE" -o "${CFILE%.*}.o"
+#!/bin/bash
+CFILE="main.c"; gcc -c "$CFILE" -o "${CFILE%.*}.o"
